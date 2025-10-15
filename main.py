@@ -10,7 +10,6 @@ def home():
 def about():
     return render_template('about.html')
 
-#C:\Users\HP\Desktop\portfolio\main.py
 
 @app.route('/project')
 def project():
